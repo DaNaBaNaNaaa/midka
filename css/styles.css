@@ -1,0 +1,263 @@
+#title {
+  background-color: #c7ffd8;
+  padding: 100px 50px;
+  height: 200px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  color: black;
+  font-family: verdana;
+}
+nav ul{
+  display: flex;
+  color: black;
+  font-family: verdana;
+}
+
+nav ul li{
+  margin: 30px;
+  font-family: verdana;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.text-container{
+	position: absolute;
+	left:13%;
+	top:24%;
+}
+
+#img1{
+  position: relative;
+left:20px;
+}
+
+#a12{
+  position: relative;
+    right: -100px;
+    font-family: verdana;
+}
+
+#a13{
+  position: relative;
+    right: -200px;
+}
+
+
+.what-manga button{
+	width:140px;
+	height: 40px;
+	border:none;
+	font-family: tahoma;
+	background-color:#262525;
+  color: white;
+  position: relative;
+  right: -200px;
+}
+.knopka{
+  color:white;
+
+}.knopka1{
+  color:white;
+  height:200px;
+  width:300px;
+}
+
+#main{
+  background-image: url("../images/photgraphh.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  width: 999px;
+  margin: 150px auto 200px auto;
+  min-height: 47%;
+}
+
+.text-container1 p{
+	margin:45px 0px 25px;
+	line-height:0px;
+  margin: 15%
+  padding: 15%;
+}
+
+.text-container p:nth-child(1){
+	font-family:poppins;
+	font-weight: lighter;
+	color:#6d6d6d;
+	font-size:22px;
+
+}
+
+.about-manga{
+	width:80%;
+	height:330px;
+	background:white;
+	border-radius:20px;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	display: flex;
+	margin: 250px  auto 50px auto;
+
+  align-items: center;
+}
+
+.about-manga img{
+	height:250px;
+}
+
+#a11{
+  font-weight:bold
+}
+
+.what-manga{
+	width:500px;
+  text-decoration: none;
+}
+
+#s3{
+  color:black;
+  font-family: verdana;
+}
+
+#s2{
+  color:black;
+  font-family: verdana;
+}
+
+#s4{
+  color:black;
+  width: 250px;
+  height: 200px;
+  font-family: verdana;
+}
+.text-container p:nth-child(2){
+	font-family:poppins;
+	font-weight:bold;
+	letter-spacing:1px;
+	color:#1a1a1a;
+	font-size:50px;
+}
+.text-container p:nth-child(3){
+	font-family: poppins;
+	color: #403e3e;
+	font-size:30px;
+	line-height:30px;
+}
+
+.text-container button{
+	width:130px;
+	height:42px;
+	border-radius:10px;
+	font-family:poppins;
+	font-weight:bold;
+	font-size: 14px;
+	margin:0px 10px;
+  position: relative;
+  left: -10px;
+}
+
+.theme{
+	border:2px solid #373636;
+	color:#373636;
+	background-color:transparent;
+
+}
+.anime{
+	background-color:#0B0B0B;
+	color:#fff;
+	border:none;
+}
+
+.komanda{
+  height:480px;
+	position:absolute;
+	bottom:40px;
+	left:77%;
+	transform: translateX(-65%);
+}
+
+.grid1{
+  margin-left: -250px;
+}
+
+#footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #c7ffd8;
+  color: black;
+  font-family: verdana;
+  text-align: center;
+  min-height: 40px;
+  text-align: center;
+
+}
+
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+/* Clear floats after containers */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+.card{
+  height: 50%;
+}
+.card-img{
+  weight: 200px;
+  height: 350px;
+}
+.pricing{
+  text-align: center;
+}
+.contact{
+  text-align: center;
+  margin: 2%;
+  padding: 2%;
+}
+.d-block w-100{
+  height: 300px;
+}
+.number{
+  text-align: right;
+}
